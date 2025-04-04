@@ -1,0 +1,32 @@
+a:visited {
+  color: purple;
+}
+
+a:hover, a:active,a:focus {
+   color: lightgray;
+}
+
+* {
+  font-family: monospace;
+}
+
+* {
+  font-size: 21px;
+}
+
+* {
+  background: papayawhip;
+}
+
+* {
+ color: black;
+}
+
+* {
+  text-transform: uppercase;
+}
+
+* {
+  text-align: justify;
+}
+
