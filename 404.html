@@ -64,15 +64,7 @@
         <h2>Page Not Found</h2>
         <p>Oops! The page you're looking for seems to have vanished into the digital void.</p>
         <p>It might have been moved, deleted, or perhaps it never existed in the first place.</p>
-        <a href="javascript:window.location.href=window.location.origin" class="btn">Return to Homepage</a>
+        <a href="/" class="btn">Return to Homepage</a>
     </div>
-
-    <script>
-        // Make sure the "Return to Homepage" button works correctly on any domain
-        document.querySelector('.btn').addEventListener('click', function(e) {
-            e.preventDefault();
-            window.location.href = window.location.origin;
-        });
-    </script>
 </body>
 </html>
