@@ -14,6 +14,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-To report a vulnerability You could Contact me using discord,Email My discord username is carlc2790 And my email is unknowgarcon@gmail.com.
+To report a vulnerability You could Contact me using discord, Email, My discord username is carlc2790 And my email is unknowgarcon@gmail.com.
 
 If the Vulnerability is accepted then I'll send You an reply or a email to say it is accpeted, If it's accepted via discord I'll tell you, If it's rejected then I'll tell You In whatever I can or You have used.
