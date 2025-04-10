@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on creating more repositories<br>👯 I’m looking to collaborate on projects<br>🤝 I’m looking for help with creating projects,coding<br>🌱 I’m currently learning how to code In programming languages like Python,HTML.Javascript,CSS<br>💬 Ask me about anything(s)<br>⚡ Fun fact I'm also learning cybersecurity
+🔭 I’m currently working on creating more repositories/projects<br>👯 I’m looking to collaborate on projects<br>🤝 I’m looking for help with creating projects,coding,<br>🌱 I’m currently learning how to code In programming languages like Python,HTML.Javascript,CSS<br>💬 Ask me about anything(s)<br>⚡ Fun fact I'm also learning cybersecurity
 
 
 ## 🌐 Socials:
