@@ -1,32 +1,23 @@
+body {
+  font-family: monospace;
+  font-size: 21px;
+  background: papayawhip;
+  color: black;
+}
+
+p {
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
 a:visited {
   color: purple;
 }
 
-a:hover, a:active,a:focus {
-   color: lightgray;
-}
-
-* {
-  font-family: monospace;
-}
-
-* {
-  font-size: 21px;
-}
-
-* {
-  background: papayawhip;
-}
-
-* {
- color: black;
-}
-
-* {
-  text-transform: uppercase;
-}
-
-* {
-  text-align: justify;
+a:hover, a:active, a:focus {
+   color: #777777; /* Changed from lightgray for better contrast */
 }
 
