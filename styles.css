@@ -20,25 +20,3 @@ a:visited {
 a:hover, a:active, a:focus {
    color: #777777; /* Changed from lightgray for better contrast */
 }
-
-.navbar ul{
-list-style-type: none;
-background-color: hsl(0, 0%, 25%);
-padding: 0px;
-margin: 0px;
-overflow: hidden;
-}
-.navbar a{
-  color: white;
-  text-decoration: none;
-  padding: 1px;
-  display: inline-block;
-  text-align: center;
-}
-.navbar a:hover{
-  background-color: hsl(0, 0%, 10%);
-}
-.navbar li{
-  float: left;
-}
-
