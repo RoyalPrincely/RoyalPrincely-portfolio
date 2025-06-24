@@ -36,6 +36,19 @@ Prince's Portfolio Website
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "s285vgu6kt");
 </script>
+<script>
+  // Initialize the agent on page load.
+  const fpPromise = import('https://fpjscdn.net/v3/sBZaKGkUhlud0IQWwuIJ')
+    .then(FingerprintJS => FingerprintJS.load())
+
+  // Get the visitorId when you need it.
+  fpPromise
+    .then(fp => fp.get())
+    .then(result => {
+      const visitorId = result.visitorId
+      console.log(visitorId)
+    })
+</script>
   <header>
   <h1 style = "text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;">Hello, I'm Prince 😃</h1>
 </header>
