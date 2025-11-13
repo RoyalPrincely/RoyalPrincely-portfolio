@@ -11,6 +11,6 @@
 
 ## Reporting a Vulnerability
 
-To report a vulnerability you could Contact me using discord my discord username is carlc2790.
+To report a vulnerability you could Contact me.
 
-If the Vulnerability is accepted then I'll send You an reply or a email to say it is accpeted, If it's accepted via discord I'll tell you, If it's rejected then I'll tell You In whatever I can or You have used.
+If the Vulnerability is accepted then I'll send You an reply or a email to say it is accpeted, If it's rejected then I'll tell You.
