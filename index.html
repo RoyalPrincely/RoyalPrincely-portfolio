@@ -15,6 +15,7 @@ Prince's Portfolio Website
 <meta name="msvalidate.01" content="FD35BB7C54A8A88AA5D6E21388B7BA88" />
 <script src="https://simplecommenter.com/js/comments.min.js?domain=royalprincely-portfolio.vercel.app" defer></script>
 </head>
+</html>
 <body>
 <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
 <script src="https://cdn.userway.org/widget.js" data-account="yf1VBl57tU" defer></script>
@@ -49,9 +50,6 @@ Prince's Portfolio Website
       console.log(visitorId)
     })
 </script>
-  <header>
-  <h1 style = "text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;">Hello, I'm Prince 😃</h1>
-</header>
 <hr>
 <script src="https://cdn.addsearch.com/v5/addsearch-ui.min.js?key=24888edc48511c6eb138a08ac317fbab&id=asw_01"></script>
 <div id="google_translate_element"></div>
@@ -62,21 +60,21 @@ function googleTranslateElementInit() {
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <p>You can translate the content of this page by selecting a language in the select box.</p>
-<main>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I'm Prince.</p>
-    <p>I'm a Web dev enthusiast.</p>
-    <p>I'm learning how to code.</p>
-    <p>I'm building a website & online presence.</p>
-    <p>I'm passionate about connecting with others.</p>
-    <p>I'm interested in Cybersecurity, Coding, Website Development & making a difference.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <p>These are the skills and programming languages I've worked with and continue to develop expertise in.</p>
-    <ul>
+<header>
+ <h1 id="prince" class="prince" style="text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;">Prince</h1>
+</header>
+    <hr>
+    <h1 id="about" class="about">About</h1>
+    <p class="about-p">I'm Prince.</p>
+    <p class="about-p">I'm a Website Developer.</p>
+    <p class="about-p">I'm learning how to code.</p>
+    <p class="about-p">I'm building websites.</p>
+    <p class="about-p">I'm passionate about forming deep connection with others.</p>
+    <p class="about-p">I'm interested in Cybersecurity, Coding, Open Source Intelligence, and Website Development.</p>
+    <hr>
+    <h1 class="skills" id="skills">Skills</h1>
+    <p class="skills-p">These are the skills and programming languages I've worked with and continue to develop expertise in.</p>
+    <ul class="skills-ul">
       <li>Html</li>
       <li>Javascript</li>
       <li>Css</li>
@@ -84,21 +82,39 @@ function googleTranslateElementInit() {
       <li>Tailwind css</li>
       <li>Git</li>
       <li>Computer Networking</li>
+      <li>Open Source Intelligence</li>
+
     </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>I created another website here it is <a href="https://carlwasnagi2-hub.netlify.app" target="_blank">visit Carl Hub</a>.</p>
-  </section>
-
- <section id="changelogs">
-  <h2>Changelogs</h2>
-  <p>This is the changes that have been made to Prince's Portfolio Website</p>
-  <ul></ul>
-  <li>Added google translate on <time datetime="2025-06-19">June 19 2025</time></li>
-  <li>Added search on <time datetime="2025-06-20">June 20 2025</time></li>
-  <li>Added navigation on <time datetime="2025-07-01">July 1 2025</time></li>
-</main>
+    <hr>
+    <h1 class="learning" id="learning">Learning</h1>
+    <p class="learning-p">I learned HTML, CSS, and Javascript by Watching videos, Watching tutorials on platforms like <a href="https://youtube.com" target="_blank">Youtube</a>, Reading blogs like <a href="https://w3schools.com">W3schools</a>, <a href="https://freecodecamp.org">Freecodecamp</a>, <a href="https://theodinproject.com">TheOdinProject</a> <a href="https://scrimba.com">Scrimba</a>, <a href="https://developer.mozilla.org/en-US">MDN Web Docs</a>, <a href="https://stackoverflow.com">Stackoverflow</a>, <a href="https://www.smashingmagazine.com">Smashingmagazine</a>, <a href="https://www.digitalocean.com/community">DigitalOcean community</a>, <a href="https://netflixtechblog.com">NetflixTechblog</a>, And building projects using platforms like <a href="https://projectlearn.io">ProjectLearn</a>, <a href="https://github.com">Github</a>, and <a href="https://www.frontendmentor.io">Frontend Mentor</a>.</p>
+    <p class="learning-p">I learned React, Tailwind CSS, Git, Computer Networking, and Open source Intelligence by Watching videos, Watching tutorials, Reading blogs, And building projects.</p>
+    <hr>
+    <h1 class="Quiz" id="Quiz">Quiz</h1>
+    <div class="quiz-container">
+      <div id="question-container">
+        <h2 id="question">Question Text</h2>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+        <button id="restart-btn" class="restart-btn btn hide">Restart</button>
+      </div>
+    </div>
+    <h1 class="Contact" id="contact">Contact</h1>
+    <p class="Contact-p">Contact me at Cyniyah.Mccook@EasyMailer.live, and thecharles@tutamail.com./p>
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+        server: '1365104990263181322', // Prince's Server
+        channel: '1366091275568414731' // #🌏・general
+      })
+    </script>
+    <footer>
+      &copy; Prince
+    </footer>
 </body>
-</html>
