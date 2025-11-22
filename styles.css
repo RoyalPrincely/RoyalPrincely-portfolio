@@ -44,7 +44,7 @@ p {
 }
 
 .about-p {
-  font-family: cursive;
+  font-family: monospace;
   margin: auto;
   object-fit: cover;
   text-align: justify;
@@ -70,7 +70,7 @@ a:hover, a:active, a:focus {
 }
 
 .skills-p {
-  font-family: cursive;
+  font-family: monospace;
   margin: auto;
 }
 
