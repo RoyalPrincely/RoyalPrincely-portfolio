@@ -11,6 +11,6 @@
 
 ## Reporting a Vulnerability
 
-To report a vulnerability Contact me at thecharles@tutamail.com.
+To report a vulnerability Contact me.
 
 If the Vulnerability is accepted then I'll send You an reply or an email to say it is accpeted, If it's rejected then I'll tell You why it is rejected.
