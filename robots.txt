@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: 
 Sitemap: https://prince-hub.vercel.app/sitemap.xml
+sitemap: https://prince-hub.netlify.app/sitemap.xml
 User-agent: *
 Allow: /
