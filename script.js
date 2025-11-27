@@ -1,15 +1,7 @@
 window.onload = function () {
-  console.log("All pages and resources are fully loaded") 
-  function greet() {
-    console.log("Hello, I am carl, the owner of this website")
-  }
-  greet()
-}
-
-
-window.addEventListener('load', function() {
-  console.log("Another function executed after the page is fully loaded.");
-});
+  console.log("All pages and resources are fully loaded")
+  console.log("Welcome!")
+};
 
 try {
  
