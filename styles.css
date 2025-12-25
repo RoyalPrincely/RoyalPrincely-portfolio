@@ -33,7 +33,7 @@ p {
   margin: auto;
   border-style: outset;
   border-width: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 1px;
   background: orange;
 }
