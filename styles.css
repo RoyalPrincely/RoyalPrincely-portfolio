@@ -58,7 +58,7 @@ a:hover, a:active, a:focus {
   border-style: outset;
   border-width: 5px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 1px;
   font-family: monospace;
   margin: auto;
   background: orange;
@@ -71,7 +71,6 @@ a:hover, a:active, a:focus {
 
 .skills-ul {
   font-family: monospace;
-  border: 10px;
 }
 
 .quiz {
@@ -79,7 +78,7 @@ a:hover, a:active, a:focus {
   border-style: outset;
   border-width: 5px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 1px;
   font-family: monospace;
   margin: auto;
   background: orange;
@@ -87,7 +86,7 @@ a:hover, a:active, a:focus {
 
 .quiz-container {
   background-color: #fff;
-  padding: 20px;
+  padding: 5px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 90%;
