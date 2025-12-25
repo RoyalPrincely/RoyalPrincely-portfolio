@@ -3,18 +3,13 @@
   background-color: skyblue;
 }
 
-* {
-  background: #eaeaea;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  box-sizing: border-box;
-}
 body {
   background: #eaeaea;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 p {
@@ -79,7 +74,7 @@ a:hover, a:active, a:focus {
   border: 10px;
 }
 
-.Quiz {
+.quiz {
   border: 5px;
   border-style: outset;
   border-width: 5px;
@@ -140,7 +135,7 @@ a:hover, a:active, a:focus {
   display: flex;
   justify-content: space-between;
 }
-.Contact {
+.contact {
   border: 5px;
   border-style: outset;
   border-width: 5px;
@@ -168,7 +163,7 @@ a:hover, a:active, a:focus {
   text-align: justify;
 }
 
-.Miscellaneous {
+.miscellaneous {
   border: 5px;
   border-style: outset;
   border-width: 5px;
