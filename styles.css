@@ -1,8 +1,10 @@
+/* Text selection styling */
 ::selection {
   color: darkblue;
   background-color: skyblue;
 }
 
+/* Base styles */
 body {
   background: #eaeaea;
   background-repeat: no-repeat;
@@ -10,16 +12,49 @@ body {
   background-size: cover;
   min-height: 100vh;
   box-sizing: border-box;
+  font-family: monospace;
 }
 
+/* Apply border-box to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Base paragraph styling */
 p {
   color: black;
   font-family: monospace;
 }
 
+/* Common section styling - reduces repetition */
+.section-header {
+  border: 5px outset;
+  border-radius: 10px;
+  padding: 1px;
+  font-family: monospace;
+  margin: auto;
+  background: orange;
+}
+
+/* Apply common section styling */
+.about,
+.skills,
+.quiz,
+.contact,
+.learning {
+  border: 5px outset;
+  border-radius: 10px;
+  padding: 1px;
+  font-family: monospace;
+  margin: auto;
+  background: orange;
+}
+
+/* Prince header */
 .prince {
   font-family: monospace;
-  border: 10px;
   margin: auto;
 }
 
@@ -27,43 +62,25 @@ p {
   box-shadow: 5px 5px 5px;
 }
 
-.about {
-  border: 5px;
-  font-family: monospace;
-  margin: auto;
-  border-style: outset;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 1px;
-  background: orange;
-}
-
+/* About section */
 .about-p {
   font-family: monospace;
   margin: auto;
-  object-fit: cover;
   text-align: justify;
 }
 
+/* Link styles */
 a:visited {
   color: purple;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #777777;
 }
 
-.skills {
-  border: 5px;
-  border-style: outset;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 1px;
-  font-family: monospace;
-  margin: auto;
-  background: orange;
-}
-
+/* Skills section */
 .skills-p {
   font-family: monospace;
   margin: auto;
@@ -73,17 +90,7 @@ a:hover, a:active, a:focus {
   font-family: monospace;
 }
 
-.quiz {
-  border: 5px;
-  border-style: outset;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 1px;
-  font-family: monospace;
-  margin: auto;
-  background: orange;
-}
-
+/* Quiz section */
 .quiz-container {
   background-color: #fff;
   padding: 5px;
@@ -97,6 +104,7 @@ a:hover, a:active, a:focus {
   margin-bottom: 20px;
 }
 
+/* Button grid layout */
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -104,6 +112,7 @@ a:hover, a:active, a:focus {
   margin-bottom: 20px;
 }
 
+/* Button styling */
 .btn {
   background-color: #007bff;
   color: #fff;
@@ -112,10 +121,16 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.2s ease;
 }
 
 .btn:hover {
   background-color: #0056b3;
+}
+
+.btn:focus {
+  outline: 2px solid #004085;
+  outline-offset: 2px;
 }
 
 .btn.correct {
@@ -126,38 +141,24 @@ a:hover, a:active, a:focus {
   background-color: #dc3545;
 }
 
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Utility classes */
 .hide {
   display: none;
 }
 
+/* Controls layout */
 .controls {
   display: flex;
   justify-content: space-between;
 }
-.contact {
-  border: 5px;
-  border-style: outset;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 1px;
-  font-family: monospace;
-  margin: auto;
-  background: orange;
-}
 
-.learning {
-  border: 5px;
-  border-style: outset;
-  border-width: 5px;
-  border-radius: 10px;
-  padding: 1px;
-  font-family: monospace;
-  margin: auto;
-  background: orange;
-}
-
+/* Learning section */
 .learning-p {
   font-family: monospace;
-  object-fit: cover;
   text-align: justify;
 }

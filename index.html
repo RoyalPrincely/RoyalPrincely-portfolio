@@ -24,7 +24,7 @@
     <header>
         <h1 id="prince" class="prince" style="text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;"><a href="/">Prince Hub</a></h1>
     </header>
-    <script src="https://cdn.addsearch.com/v5/addsearch-ui.min.js?key=5a82b9e124a70fd2ee6ad1eef56dd864&id=asw_01"></script>
+    <script src="https://cdn.addsearch.com/v5/addsearch-ui.min.js?key=5a82b9e124a70fd2ee6ad1eef56dd864&id=asw_01" async></script>
     <hr>
     <div id="google_translate_element"></div>
     <p>You can translate the content of this page by selecting a language in the select box.</p>
@@ -64,26 +64,26 @@ function googleTranslateElementInit() {
         <section id="learning" class="learning">
         <h2>Learning</h2>
         </section>
-        <p class="learning-p">I learned HTML, CSS, and Javascript by Watching videos, Watching tutorials on platforms like <a href="https://youtube.com" target="_blank">Youtube</a>, Reading blogs like <a href="https://w3schools.com">W3schools</a>, <a href="https://freecodecamp.org">Freecodecamp</a>, <a href="https://theodinproject.com">TheOdinProject</a> <a href="https://scrimba.com">Scrimba</a>, <a href="https://developer.mozilla.org/en-US">MDN Web Docs</a>, <a href="https://stackoverflow.com">Stackoverflow</a>, <a href="https://www.smashingmagazine.com">Smashingmagazine</a>, <a href="https://www.digitalocean.com/community">DigitalOcean community</a>, <a href="https://netflixtechblog.com">NetflixTechblog</a>, And building projects using platforms like <a href="https://projectlearn.io">ProjectLearn</a>, <a href="https://github.com">Github</a>, and <a href="https://www.frontendmentor.io">Frontend Mentor</a>.</p>
+        <p class="learning-p">I learned HTML, CSS, and Javascript by Watching videos, Watching tutorials on platforms like <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a>, Reading blogs like <a href="https://w3schools.com">W3schools</a>, <a href="https://freecodecamp.org">Freecodecamp</a>, <a href="https://theodinproject.com">TheOdinProject</a> <a href="https://scrimba.com">Scrimba</a>, <a href="https://developer.mozilla.org/en-US">MDN Web Docs</a>, <a href="https://stackoverflow.com">Stackoverflow</a>, <a href="https://www.smashingmagazine.com">Smashingmagazine</a>, <a href="https://www.digitalocean.com/community">DigitalOcean community</a>, <a href="https://netflixtechblog.com">NetflixTechblog</a>, And building projects using platforms like <a href="https://projectlearn.io">ProjectLearn</a>, <a href="https://github.com">Github</a>, and <a href="https://www.frontendmentor.io">Frontend Mentor</a>.</p>
         <p class="learning-p">I learned React, Tailwind CSS, Git, Computer Networking, and Open source Intelligence by Watching videos, Watching tutorials, Reading blogs, And building projects.</p>
         <hr>
         <section id="quiz" class="quiz">
-        <h2>Quiz</h2>
+            <h2>Quiz</h2>
         </section>
-        <div class="quiz-container">
-                <div id="question-container">
-        <h2 id="question">Question Text</h2>
-        <div id="answer-buttons" class="btn-grid">
-        <button class="btn">Answer 1</button>
-        <button class="btn">Answer 2</button>
-        <button class="btn">Answer 3</button>
-        <button class="btn">Answer 4</button>
-        </div>
-        </div>
-        <div class="controls">
-        <button id="next-btn" class="next-btn btn hide">Next</button>
-        <button id="restart-btn" class="restart-btn btn hide">Restart</button>
-        </div>
+        <div class="quiz-container" role="region" aria-label="Web Development Quiz">
+            <div id="question-container">
+                <h2 id="question" aria-live="polite">Question Text</h2>
+                <div id="answer-buttons" class="btn-grid" role="group" aria-label="Answer options">
+                    <button class="btn" type="button">Answer 1</button>
+                    <button class="btn" type="button">Answer 2</button>
+                    <button class="btn" type="button">Answer 3</button>
+                    <button class="btn" type="button">Answer 4</button>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="next-btn" class="next-btn btn hide" type="button" aria-label="Next question">Next</button>
+                <button id="restart-btn" class="restart-btn btn hide" type="button" aria-label="Restart quiz">Restart</button>
+            </div>
         </div>
         <hr>
         <section id="contact" class="contact">
@@ -93,6 +93,7 @@ function googleTranslateElementInit() {
         <a href="https://github.com/RoyalPrincely" rel="me">Github</a>
     </main>
     <script src="script.js" defer></script>
+    <!-- Third-party scripts loaded with defer/async for better performance -->
     <script>
     (function(jusref){
     var d = document,
