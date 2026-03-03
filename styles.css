@@ -19,8 +19,13 @@ p {
 
 .prince {
   font-family: monospace;
-  border: 10px solid orange;
+  border: 10px;
+  border-style: solid;
   margin: auto;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 1px;
+  background: orange;
 }
 
 .prince:hover {
@@ -28,7 +33,7 @@ p {
 }
 
 .about {
-  border: 5px solid orange;
+  border: 5px;
   font-family: monospace;
   margin: auto;
   border-style: outset;
@@ -54,7 +59,7 @@ a:hover, a:active, a:focus {
 }
 
 .skills {
-  border: 5px solid orange;
+  border: 5px;
   border-style: outset;
   border-width: 5px;
   border-radius: 10px;
@@ -74,7 +79,7 @@ a:hover, a:active, a:focus {
 }
 
 .quiz {
-  border: 5px solid orange;
+  border: 5px;
   border-style: outset;
   border-width: 5px;
   border-radius: 10px;
