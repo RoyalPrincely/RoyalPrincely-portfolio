@@ -54,7 +54,9 @@ a:visited {
   color: purple;
 }
 
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #777777;
 }
 

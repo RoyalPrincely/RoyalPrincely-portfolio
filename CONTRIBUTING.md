@@ -8,16 +8,16 @@ Please read this guide to understand how you can contribute effectively.
 
 You can contribute in many ways, including:
 
-*   **Reporting Bugs:** Identifying and documenting issues to help improve stability.
-*   **Suggesting Enhancements:** Proposing new features or improvements to existing ones.
-*   **Writing Documentation:** Improving existing documentation or adding new content.
-*   **Submitting Code:** Fixing bugs, implementing new features, or refactoring code.
+- **Reporting Bugs:** Identifying and documenting issues to help improve stability.
+- **Suggesting Enhancements:** Proposing new features or improvements to existing ones.
+- **Writing Documentation:** Improving existing documentation or adding new content.
+- **Submitting Code:** Fixing bugs, implementing new features, or refactoring code.
 
 To report a bug:
 
 1.  **Open a New Issue:** Navigate to the [Issues](https://github.com/RoyalPrincely/RoyalPrincely-portfolio/issues) tab and click "New Issue".
 2.  **Provide Detailed Information:** Include a clear title and description, steps to reproduce the issue, expected behavior, and actual behavior.
-4.  **Include Environment Details:** Mention your operating system, software version, and any other relevant configuration.
+3.  **Include Environment Details:** Mention your operating system, software version, and any other relevant configuration.
 
 ## Suggesting Enhancements
 
@@ -36,12 +36,13 @@ We appreciate feature requests and ideas. To suggest an enhancement:
 6.  **Commit Your Work:** Write clear, concise commit messages.
 7.  **Push Changes:** Push your changes to your fork on GitHub.
 8.  **Open a Pull Request (PR):** Open a PR from your branch to the main branch of the original repository.
-    *   **Include Details:** Provide a clear title and description for your PR, referencing any related issues.
-    *   **Be Responsive:** Be prepared to discuss your changes and make revisions based on feedback from maintainers.
+    - **Include Details:** Provide a clear title and description for your PR, referencing any related issues.
+    - **Be Responsive:** Be prepared to discuss your changes and make revisions based on feedback from maintainers.
 
 ## Getting Help
 
 If you have questions or need assistance, you can reach out via:
-*   Opening an issue on the [Issue Tracker](https://github.com/RoyalPrincely/RoyalPrincely-portfolio/issues)
+
+- Opening an issue on the [Issue Tracker](https://github.com/RoyalPrincely/RoyalPrincely-portfolio/issues)
 
 Thank you for helping us make this project better!
