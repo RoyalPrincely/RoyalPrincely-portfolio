@@ -27,7 +27,3 @@ Prince's personal portfolio website. A simple, static site showcasing skills and
 
 ## Notes & privacy
 - This branch preserves analytics and third-party scripts exactly as requested. If you want to remove or replace any trackers later for privacy or performance reasons, I can prepare a privacy-respecting variant.
-
-## Next steps
-- Add project links under `Projects` and any images/assets to the repository.
-- Optionally set up a simple CI or GitHub Pages deployment workflow.
