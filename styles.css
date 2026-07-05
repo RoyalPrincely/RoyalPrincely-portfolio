@@ -1,25 +1,99 @@
 /* Modernized minimal styles for Prince Hub */
-:root{
-  --bg:#f7f7f8;
-  --card:#ffffff;
-  --accent:#ff8c00;
-  --text:#222;
+:root {
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --accent: #ff8c00;
+  --text: #222;
 }
-*{box-sizing:border-box}
-body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial, sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
-header{background:var(--card);border-bottom:1px solid #e6e6e6;padding:16px}
-nav{display:flex;gap:12px;align-items:center}
-nav a{color:var(--text);text-decoration:none;font-weight:500}
-#prince{margin:8px 0 0 0}
-main{max-width:900px;margin:24px auto;padding:0 16px}
-section{margin-bottom:28px}
-h1,h2{margin:0 0 8px}
-.quiz-container{background:var(--card);padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
-.btn-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
-.btn{padding:10px 14px;border-radius:6px;border:none;background:#007bff;color:#fff;cursor:pointer}
-.btn.correct{background:#28a745}
-.btn.wrong{background:#dc3545}
-.controls{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
-.hide{display:none}
-footer{text-align:center;padding:20px;color:#666}
-@media (max-width:520px){.btn-grid{grid-template-columns:1fr}}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    system-ui,
+    Segoe UI,
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+header {
+  background: var(--card);
+  border-bottom: 1px solid #e6e6e6;
+  padding: 16px;
+}
+nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+#prince {
+  margin: 8px 0 0 0;
+}
+main {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+section {
+  margin-bottom: 28px;
+}
+h1,
+h2 {
+  margin: 0 0 8px;
+}
+.quiz-container {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(20, 20, 20, 0.04);
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+.btn {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+.btn.correct {
+  background: #28a745;
+}
+.btn.wrong {
+  background: #dc3545;
+}
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+.hide {
+  display: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+@media (max-width: 520px) {
+  .btn-grid {
+    grid-template-columns: 1fr;
+  }
+}
